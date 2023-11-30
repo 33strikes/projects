@@ -1,0 +1,142 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#container{
+    border: 2px solid black;
+    width: 900px;
+    position:relative;
+}
+#main-container{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 100%;
+    border-radius: 0;
+    border: 0;
+    padding:10px;
+    background-color: black;
+    color:White;
+    font-weight: 400;
+    font-size: 15px;
+}
+#img-container{
+    width: 280px;
+    height: 280px;
+}
+#img-container img{
+ width:100%;
+ height:100%;
+}
+#heading{
+background-color: rgb(232, 226, 226);
+text-align: center;
+padding: 10px;
+text-transform:uppercase;
+font-weight: 700;
+}
+#first{
+    position:absolute;
+    top:-8px;
+    left: -17px;
+    border: 0;
+    background-color: red;
+    color:white;
+    padding: 6px 18px;
+    font-weight: 600;
+}
+#cost-letter{
+    position: relative;
+}
+#second{
+    position: absolute;
+    top:61px;
+    right:390px;
+    text-transform: uppercase;
+    color: rgb(54, 52, 52);
+    font-weight: 500px;
+
+}
+#colored-box{
+    display: flex;
+    justify-content:flex-start;
+    gap: 15px;
+    align-items: center;
+
+}
+.box{
+    padding: 6.5px;
+}
+#details{
+flex:1.5;
+line-height:2.5em ;
+font-weight: bold;
+font-family:Arial, Helvetica, sans-serif;
+margin-top:10px;
+margin-left:35px;
+}
+#price{
+flex:1;
+line-height: 2.5em;
+font-weight: bold;
+font-family:Arial, Helvetica, sans-serif;
+margin-left:25px;
+margin-top:10px;
+}
+
+
+ul{
+    list-style-type:square;
+}
+#third{
+    text-decoration:underline;
+}
+#cost-letter{
+    font-weight: bolder;
+}
+#product-head{
+    font-weight: bolder;
+}
+
+div #black{
+background-color: black;
+}
+div #blue{
+    background-color:blue;
+}
+div #red{
+    background-color:red;
+}
+div #yellow{
+    background-color:yellow;
+}
+div #green{
+    background-color:green;
+}
+div #brown{
+    background-color:brown;
+}
+
+button:hover{
+    background-color:red ;
+    cursor: pointer;
+}
+button:active{
+    background-color: green;
+}
+#third{
+    font-weight: lighter;
+}
+#third:hover{
+    cursor: pointer;
+    background-color: antiquewhite;
+    padding: 2px;
+}
