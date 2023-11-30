@@ -1,3 +1,3 @@
 
 Easy projects pending
-Layout designs are form Front End Mentor plus own
+Layout designs are from Front End Mentor plus own
