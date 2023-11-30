@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan&display=swap');
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    height: 100vh;
+    background: url("bg-pattern-top-desktop.svg")top left no-repeat, url("bg-pattern-bottom-desktop.svg")right bottom no-repeat;
+}
+
+
+#main{
+    display: grid;
+    grid-template-columns: 0.8fr 0.8fr 1fr;
+    grid-template-rows:   1fr 1fr;
+    justify-items: center;
+    column-gap: 50px;
+    row-gap:50px;
+    margin-left: 16px;
+    margin-right: 20px;
+}
+.container-1{
+    padding-left:10px;
+}
+.container-1 h2{
+font-size: 55px;
+color: hsl(300, 43%, 22%);
+font-weight: 700;
+}
+.container-1 p{
+    font-size:20px;
+    color:hsl(300, 22%, 52%);
+    margin-top:55px;
+}
+.container-2{
+    justify-self:stretch ;
+    grid-column: 3/4;
+}
+.sub-div{
+    width: 80%;
+    display: flex;
+    gap: 2em;
+    margin-bottom: 15px;
+    background-color:hsl(300, 24%, 96%);
+    border-radius: 10px;
+    padding: 17px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 800;
+    font-size: 20px;
+}
+
+#sub-2{
+    margin-left: 39px;
+}
+#sub-3{
+    margin-left: 72px;
+}
+.head{
+    display:flex;
+    align-items: center;
+    gap:1.5em;
+    margin-bottom: 25px;
+}
+.people{
+    width: 55px;
+    border-radius:2.5em;
+}
+.head h3{
+    color:white;
+}
+.head p{
+    font-size: 19px;
+    font-weight: 700;
+    color:hsl(333, 80%, 67%);
+}
+.saying{
+    color:white;
+    font-size: 20px;
+}
+#container-3{
+width: 500px;
+align-self:  start;
+}
+#container-4{
+    width: 500px;
+align-self: center;
+}
+#container-5{
+width: 500px;
+justify-self:start;
+align-self: end;
+
+}
+.box{
+    background-color:  hsl(300, 43%, 22%);
+    border-radius: 10px;
+    height: 260px;
+}
+.inner-box{
+ padding:35px;   
+}
+
+
+@media (max-width:375px){
+    #main{
+        grid-template-columns: 1fr;
+        width: 100%;
+    }
+    .container-1  h2 {
+    font-size:30px;
+    text-align:center;
+    }
+    .container-2{
+        grid-column: 1;
+        width: 300px;
+        text-align: center;
+    }
+    .container-3{
+        grid-column:1;
+        width: 100%;
+    }
+    .container-4{
+        grid-column: 1;
+        width: 10%;
+    }
+}
